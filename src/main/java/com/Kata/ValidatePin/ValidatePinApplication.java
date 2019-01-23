@@ -14,7 +14,7 @@ public class ValidatePinApplication {
 	}
 
 	public Boolean validatePin(String pin) {
-		return pin.matches("^\\s{0}(\\d{4}|\\d{6})\\s{0}$");
+		return pin.matches("^\\d{4}|\\d{6}$");
 	}
 
 }
