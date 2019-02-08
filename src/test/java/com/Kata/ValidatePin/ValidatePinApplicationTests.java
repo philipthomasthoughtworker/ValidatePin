@@ -13,6 +13,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class ValidatePinApplicationTests {
 
 	@Test
+	public void ValidatePin_I_WANT_TO_FAIL()
+	{
+		assertFalse(true);
+	}
+	
+	@Test
 	public void ValidatePin_NewLine_4_Digits_Exactly_Test() {
 		ValidatePinApplication application = new ValidatePinApplication();
 		String pin = "1234\n";
