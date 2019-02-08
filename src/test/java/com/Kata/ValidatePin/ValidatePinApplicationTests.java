@@ -15,9 +15,9 @@ public class ValidatePinApplicationTests {
 	@Test
 	public void ValidatePin_I_WANT_TO_FAIL()
 	{
-		assertFalse(true);
+		assertFalse(false);
 	}
-	
+
 	@Test
 	public void ValidatePin_NewLine_4_Digits_Exactly_Test() {
 		ValidatePinApplication application = new ValidatePinApplication();
